@@ -4,20 +4,9 @@
 </script>
 
 <template>
-  <div>
     <Navbar />
-    <router-view />
+    <main>
+      <router-view />
+    </main>
     <FindMe />
-  </div>
 </template>
-
-<style scoped>
-  .find-me {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 85%;
-    left: 3%;
-  }
-
-</style>
